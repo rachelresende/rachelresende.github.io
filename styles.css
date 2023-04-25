@@ -28,6 +28,13 @@
     color: var(--main-text-color);
 }
 
+#about-container {
+    flex: 1 1 80%;
+    min-height: 100vh;
+    background-color: var(--about-bg-color);
+    padding: 50px;
+}
+
 #bio-container {
     flex: 1 1 20%;
     min-height: 100vh;
@@ -35,13 +42,6 @@
     text-align: center;
     padding: 30px 12px;
     border-right: 5px solid var(--bio-border-color);
-}
-
-#about-container {
-    flex: 1 1 80%;
-    min-height: 100vh;
-    background-color: var(--about-bg-color);
-    padding: 50px;
 }
 
 /* bio Containers */
