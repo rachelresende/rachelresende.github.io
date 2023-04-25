@@ -74,12 +74,12 @@
     margin-bottom: 25px;
     padding-bottom: 25px;
 }
-
+  
 #social-container li {
     flex: 1 1 0;
     max-width: 60px;
 }
-
+  
 #social-container li a {
     color: var(--main-color);
     font-size: 30px;
@@ -121,7 +121,6 @@
 }
 
 .description {
-
     max-width: 75%;
     margin-bottom: 10px;
 
