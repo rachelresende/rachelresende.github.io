@@ -85,6 +85,15 @@
     font-size: 30px;
 }
 
+.social-links {
+    margin-left: 20px; /* Adiciona margem à esquerda para mover a lista */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+  }
+  
+  .social-link {
+    margin-bottom: 10px; /* Adiciona espaço entre os links */
+  }
+
 #email-container {
     display: flex;
     justify-content: center;
