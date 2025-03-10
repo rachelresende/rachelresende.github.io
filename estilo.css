@@ -1,15 +1,13 @@
 body {
-        font: 21px "Lucida Grande", "Lucida Sans Unicode", "Arial", sans-serif;
-        background-image: url('76YS.gif'); /* Substitua pelo caminho do seu GIF */
-        background-size: cover; /* Ajusta o tamanho do GIF para cobrir todo o fundo */
-        background-repeat: repeat; /* Repete o GIF se ele for menor que o fundo */
-        font-family: sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
+    font: 21px "Lucida Grande", "Lucida Sans Unicode", "Arial", sans-serif;
+    background-image: url('76YS.gif');
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
-    
-
 
 #apresentacao p {
     text-align: justify;
@@ -17,11 +15,11 @@ body {
 }
 
 #container {
-    width: 1080px;
+    width: 90%; /* Ajuste para porcentagem */
+    max-width: 1080px; /* Mantém a largura máxima */
     margin: 0 auto;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    padding-top: 60px; /* Ajuste este valor conforme necessário */
+    border-radius: 10px; /* Removi os prefixos -moz e -webkit */
+    padding-top: 60px;
 }
 
 a:link, a:active, a:visited {
@@ -53,11 +51,20 @@ header {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    display: flex; /* Adicionado para alinhar foto e texto */
+    align-items: center; /* Alinha verticalmente */
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha */
+    justify-content: center; /* Centraliza o conteudo do header em tela pequena */
+}
+
+header h1 {
+    width: 100%; /* Garante que o título ocupe a largura total em telas pequenas */
+    text-align: center; /* Centraliza o título */
 }
 
 nav {
     position: fixed;
-    top: 10px;
+    top: 0;
     left: 0;
     width: 100%;
     background-color: #000000;
@@ -66,24 +73,20 @@ nav {
 
 nav ul {
     list-style: none;
-    margin-top: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    float: right;
+    margin: 0;
     padding: 0;
+    display: flex; /* Adicionado para alinhar os itens do menu */
+    justify-content: center; /* Centraliza os itens do menu */
+    flex-wrap: wrap; /* Permite que os itens do menu quebrem para a próxima linha */
 }
 
 nav ul li {
-    float: left;
-    display: inline;
-    margin-left: 20px;
+    margin: 10px;
 }
 
 nav ul li a:link {
     display: block;
-    margin-right: 25px;
-    padding-bottom: 3px;
+    padding: 5px 10px;
     text-transform: uppercase;
 }
 
@@ -110,4 +113,26 @@ h3 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #ffffff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    #foto {
+        width: 120px;
+        height: 120px;
+        margin: 10px auto;
+    }
+
+    #container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
 }
