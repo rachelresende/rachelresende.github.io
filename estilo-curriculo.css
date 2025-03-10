@@ -1,0 +1,67 @@
+body {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    font-family: sans-serif; /* Fonte padrão */
+    line-height: 1.6; /* Espaçamento entre linhas para legibilidade */
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove padding padrão do body */
+}
+
+#container {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+    padding: 20px; /* Adiciona padding ao conteúdo */
+}
+
+h1, h2, h3 {
+    color: #fff; /* Títulos brancos */
+    font-weight: bold; /* Títulos em negrito */
+}
+
+a {
+    color: #87CEEB; /* Cor dos links (azul claro) */
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+header {
+    background: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: right;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
