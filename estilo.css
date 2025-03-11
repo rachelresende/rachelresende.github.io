@@ -7,6 +7,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    color: #ffffff; /* Cor do texto padrão */
 }
 
 #apresentacao p {
@@ -15,10 +16,10 @@ body {
 }
 
 #container {
-    width: 90%; /* Ajuste para porcentagem */
-    max-width: 1080px; /* Mantém a largura máxima */
+    width: 90%;
+    max-width: 1080px;
     margin: 0 auto;
-    border-radius: 10px; /* Removi os prefixos -moz e -webkit */
+    border-radius: 10px;
     padding-top: 60px;
 }
 
@@ -51,15 +52,15 @@ header {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    display: flex; /* Adicionado para alinhar foto e texto */
-    align-items: center; /* Alinha verticalmente */
-    flex-wrap: wrap; /* Permite que os elementos quebrem para a próxima linha */
-    justify-content: center; /* Centraliza o conteudo do header em tela pequena */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 header h1 {
-    width: 100%; /* Garante que o título ocupe a largura total em telas pequenas */
-    text-align: center; /* Centraliza o título */
+    width: 100%;
+    text-align: center;
 }
 
 nav {
@@ -75,9 +76,9 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Adicionado para alinhar os itens do menu */
-    justify-content: center; /* Centraliza os itens do menu */
-    flex-wrap: wrap; /* Permite que os itens do menu quebrem para a próxima linha */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -94,25 +95,21 @@ p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
-    color: #ffffff;
 }
 
 h1 {
     font-size: 36px;
     margin-bottom: 10px;
-    color: #ffffff;
 }
 
 h2 {
     font-size: 24px;
     margin-bottom: 15px;
-    color: #ffffff;
 }
 
 h3 {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #ffffff;
 }
 
 /* Media Queries */
