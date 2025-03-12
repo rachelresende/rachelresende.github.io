@@ -66,7 +66,7 @@ nav ul li {
 
 nav ul li a:link {
     display: block;
-    padding: 5px 10px; /* Ajuste o padding se necessário */
+    padding: 3px 8px; /* Diminua os valores de padding */
     text-transform: uppercase;
-    font-size: 14px; /* Ou um valor menor, como 14px */
+    font-size: 14px;
 }
