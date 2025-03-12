@@ -62,3 +62,18 @@ nav ul li a:link {
     text-transform: uppercase;
     font-size: 12px; /* Ajuste o tamanho da fonte */
 }
+
+#download .download-button {
+    background-color: #87CEEB;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#download .download-button:hover {
+    background-color: #87CEEB;
+}
