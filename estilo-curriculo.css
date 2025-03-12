@@ -36,7 +36,7 @@ header {
 
 nav {
     position: fixed;
-    top: 10px;
+    top: 0;
     left: 0;
     width: 100%;
     background-color: #000000;
@@ -45,18 +45,20 @@ nav {
 
 nav ul {
     list-style: none;
-    margin: 0; /* Removido margens desnecessárias */
-    padding: 0 20px; /* Adicionado padding horizontal */
-    display: flex; /* Usando flexbox */
-    justify-content: flex-end; /* Alinhando à direita */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin: 10px;
 }
 
-nav ul li a {
+nav ul li a:link {
     display: block;
-    padding-bottom: 3px;
+    padding: 5px 10px; /* Ajuste o padding se necessário */
     text-transform: uppercase;
+    font-size: 14px; /* Ou um valor menor, como 14px */
 }
