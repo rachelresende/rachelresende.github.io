@@ -49,8 +49,8 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
+
 
 nav ul li {
     margin: 10px;
@@ -58,7 +58,7 @@ nav ul li {
 
 nav ul li a:link {
     display: block;
-    padding: 3px 8px; /* Diminua os valores de padding */
+    padding: 3px 8px; /* Ajuste o padding */
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px; /* Ajuste o tamanho da fonte */
 }
