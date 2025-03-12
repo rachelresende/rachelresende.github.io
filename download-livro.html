@@ -14,6 +14,22 @@
 
   gtag('config', 'G-36YHD4G9GK');
 </script>
+<style>
+    .download-button {
+        background-color: #40E0D0; /* Azul turquesa */
+        color: white; /* Cor do texto */
+        padding: 15px 30px; /* Aumenta o tamanho do botão */
+        font-size: 18px; /* Tamanho da fonte */
+        border: none; /* Remove a borda padrão */
+        border-radius: 5px; /* Adiciona bordas arredondadas */
+        cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
+        transition: background-color 0.3s ease; /* Adiciona uma transição suave na cor de fundo */
+    }
+
+    .download-button:hover {
+        background-color: #20B2AA; /* Cor de fundo mais escura ao passar o mouse */
+    }
+</style>
 </head>
 <body>
     <div id="container">
@@ -35,11 +51,12 @@
             <img src="capa-do-livro.png" alt="Capa do Livro" width="200">
         </section>
 
-        <section id="download-livro">
+        <section id="download">
             <h2>Download</h2>
             <p>Clique no botão abaixo para baixar o livro:</p>
             <a href="amostra-livro-meu-dinheiro-rachel-resende-fernandes.pdf" download="amostra-livro-meu-dinheiro-rachel-resende-fernandes">
-                <button>Baixar Livro</button>
+                <button class="download-button">Baixar livro</button>
+                
             </a>
         </section>
 
