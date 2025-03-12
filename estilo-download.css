@@ -67,7 +67,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000;
+    background-color: #000000;
     z-index: 1000;
 }
 
@@ -86,14 +86,9 @@ nav ul li {
 
 nav ul li a:link {
     display: block;
-    padding: 5px 10px;
+    padding: 5px 10px; /* Ajuste o padding se necessário */
     text-transform: uppercase;
-    color: #87CEEB;
-}
-
-nav ul li a:hover {
-    color: #87CEEB;
-    text-decoration: underline;
+    font-size: 14px; /* Ou um valor menor, como 14px */
 }
 
 p {
