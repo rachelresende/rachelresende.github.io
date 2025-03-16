@@ -1,5 +1,5 @@
 body {
-    background-image: url('76YS.gif'); /* Substitua pelo caminho do seu GIF */
+    background-color: #000000;
     background-size: cover; /* Ajusta o tamanho do GIF para cobrir todo o fundo */
     background-repeat: repeat; /* Repete o GIF se ele for menor que o fundo */
     font-family: sans-serif;
