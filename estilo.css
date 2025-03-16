@@ -1,8 +1,8 @@
 /* Estilos gerais */
 body {
     font: 21px "Lucida Grande", "Lucida Sans Unicode", "Arial", sans-serif;
-    background-image: url('76YS.gif');
     background-size: cover;
+    background-color: #000;
     background-repeat: repeat;
     font-family: sans-serif;
     line-height: 1.6;
@@ -39,8 +39,8 @@ a:hover {
 
 /* Foto de perfil */
 #foto {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     background: url(perfil.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -82,32 +82,35 @@ nav {
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 5px 0;
+    padding: 0;
     display: flex;
     justify-content: center;
 }
 
+
 nav ul li {
-    margin: 0 10px;
+    margin: 10px;
 }
 
 nav ul li a:link {
     display: block;
-    padding: 5px 10px;
+    padding: 3px 8px; /* Ajuste o padding */
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px; /* Ajuste o tamanho da fonte */
 }
 
 /* Parágrafos e títulos */
 p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    text-align: justify; /* Texto justificado */
 }
 
 h1 {
     font-size: 36px;
     margin-bottom: 10px;
+    color: #87CEEB; /* Título verde do CMD */
 }
 
 h2 {
@@ -136,4 +139,16 @@ h3 {
         width: 100%;
         padding: 10px;
     }
+}
+
+#capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* Ajuste a altura conforme necessário */
+    background-image: url('capa.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Coloca a capa atrás da foto e do título */
 }
