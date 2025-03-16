@@ -1,9 +1,7 @@
 /* Estilos gerais */
 body {
     font: 21px "Lucida Grande", "Lucida Sans Unicode", "Arial", sans-serif;
-    background-size: cover;
     background-color: #000;
-    background-repeat: repeat;
     font-family: sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -45,7 +43,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    margin-top: 30px;
+    margin: 30px auto;
     transition: transform 0.3s ease;
 }
 
@@ -62,6 +60,8 @@ header {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
+    text-align: center;
 }
 
 header h1 {
@@ -87,16 +87,15 @@ nav ul {
     justify-content: center;
 }
 
-
 nav ul li {
     margin: 10px;
 }
 
 nav ul li a:link {
     display: block;
-    padding: 3px 8px; /* Ajuste o padding */
+    padding: 3px 8px;
     text-transform: uppercase;
-    font-size: 12px; /* Ajuste o tamanho da fonte */
+    font-size: 12px;
 }
 
 /* Parágrafos e títulos */
@@ -104,13 +103,13 @@ p {
     font-size: 20px;
     line-height: 1.6;
     margin-bottom: 40px;
-    text-align: justify; /* Texto justificado */
+    text-align: justify;
 }
 
 h1 {
     font-size: 36px;
     margin-bottom: 10px;
-    color: #87CEEB; /* Título verde do CMD */
+    color: #87CEEB;
 }
 
 h2 {
@@ -146,9 +145,15 @@ h3 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 200px; /* Ajuste a altura conforme necessário */
-    background-image: url('capa.jpg'); /* Substitua pelo caminho da sua imagem */
+    height: 200px;
+    background-image: url('capa.jpg');
     background-size: cover;
     background-position: center;
-    z-index: -1; /* Coloca a capa atrás da foto e do título */
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    #capa {
+        height: 100px;
+    }
 }
